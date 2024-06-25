@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,7 +26,7 @@ function App() {
           <span className="nav_itemLineTwo">Shop</span>
         </div>
         <div className="nav_item">
-          <span className="nav_itemLineOne">Basket</span>
+         < ShoppingBasketIcon fontSize='large'/>
           <span className="nav_itemLineTwo">0</span>
 
         </div>

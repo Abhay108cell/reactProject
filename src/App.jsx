@@ -8,8 +8,26 @@ function App() {
 
   return (
     <>
-      <div>
-      </div>
+  <div className="App">
+    <div className="header_logo">
+
+    </div>
+    <div className="header_search">
+
+    </div>
+    <div className="header_navigation">
+        <div className="nav_item">
+          
+        </div>
+        <div className="nav_item">
+
+        </div>
+        <div className="nav_item">
+
+        </div>
+      
+    </div>
+  </div>
     </>
   )
 }

@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 import StorefrontIcon from '@mui/icons-material/Storefront';
+import SearchIcon from '@mui/icons-material/Search';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,24 +12,26 @@ function App() {
   return (
     <>
   <div className="App">
-    <div className="header_logo">
-      <StorefrontIcon/>
+    <div className="header__logo">
+      <StorefrontIcon className='header__logoImage' fontSize='large'/>
+      <h2 className='header__logoImage'>eShop</h2>
     </div>
-    <div className="header_search">
-
+    <div className="header__search">
+<input type="text" className='header__searchInput' />
+<SearchIcon className='header__searchIcon'/>
     </div>
-    <div className="header_navigation">
-        <div className="nav_item">
-          <span className="nav_itemLineOne">Hello Guest</span>
-          <span className="nav_itemLineTwo">Sign in</span>
+    <div className="header__navigation">
+        <div className="nav__item">
+          <span className="nav__itemLineOne">Hello Guest</span>
+          <span className="nav__itemLineTwo">Sign in</span>
         </div>
-        <div className="nav_item">
-          <span className="nav_itemLineOne">Your</span>
-          <span className="nav_itemLineTwo">Shop</span>
+        <div className="nav__item">
+          <span className="nav__itemLineOne">Your</span>
+          <span className="nav__itemLineTwo">Shop</span>
         </div>
-        <div className="nav_item">
+        <div className="nav__item">
          < ShoppingBasketIcon fontSize='large'/>
-          <span className="nav_itemLineTwo">0</span>
+          <span className="nav__itemLineTwo">0</span>
 
         </div>
       

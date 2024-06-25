@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
+import StorefrontIcon from '@mui/icons-material/Storefront';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +12,7 @@ function App() {
     <>
   <div className="App">
     <div className="header_logo">
-
+      <StorefrontIcon/>
     </div>
     <div className="header_search">
 

@@ -66,4 +66,14 @@ font-size: 10px;
 .nav__itemLineTwo{
   font-size: 14px;
 }
-  
+  .nav__itemBasket{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-right: 50px;
+    margin-left: 10px;
+  }
+.nav__basketCount{
+  margin-left: 10px;
+  margin-right: 10px;
+}

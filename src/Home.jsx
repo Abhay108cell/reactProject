@@ -7,7 +7,7 @@ function Home(){
     <div>
         <div className="home">
           <div className="home__container">
-            <img src="" alt="" className="home__image" />
+            <img src="https://www.vocso.com/blog/wp-content/uploads/2022/02/eCommerce-Website-Features-1920-x-1080-1024x576.jpg" alt="" className="home__image" />
           </div>
         </div>
     </div>

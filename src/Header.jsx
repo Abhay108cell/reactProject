@@ -17,7 +17,7 @@ function Header(){
 <input type="text" className='header__searchInput' />
 <SearchIcon className='header__searchIcon'/>
     </div>
-    <div className="header__navigation">
+    <div className="header__nav">
         <div className="nav__item">
           <span className="nav__itemLineOne">Hello Guest</span>
           <span className="nav__itemLineTwo">Sign in</span>

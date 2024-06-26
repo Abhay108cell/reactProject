@@ -11,7 +11,7 @@ function Header(){
     <div className="header">
     <div className="header__logo">
       <StorefrontIcon className='header__logoImage' fontSize='large'/>
-      <h2 className='header__logoImage'>eShop</h2>
+      <h2 className='header__logoTitle'>eShop</h2>
     </div>
     <div className="header__search">
 <input type="text" className='header__searchInput' />

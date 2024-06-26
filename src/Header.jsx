@@ -2,9 +2,34 @@ import React from "react";
 import "./Header.css"
 function Header(){
   return(
-    <div>
-      <h1>Header</h1>
+    <>
+    <div className="header">
+    <div className="header__logo">
+      <StorefrontIcon className='header__logoImage' fontSize='large'/>
+      <h2 className='header__logoImage'>eShop</h2>
     </div>
+    <div className="header__search">
+<input type="text" className='header__searchInput' />
+<SearchIcon className='header__searchIcon'/>
+    </div>
+    <div className="header__navigation">
+        <div className="nav__item">
+          <span className="nav__itemLineOne">Hello Guest</span>
+          <span className="nav__itemLineTwo">Sign in</span>
+        </div>
+        <div className="nav__item">
+          <span className="nav__itemLineOne">Your</span>
+          <span className="nav__itemLineTwo">Shop</span>
+        </div>
+        <div className="nav__item">
+         < ShoppingBasketIcon fontSize='large'/>
+          <span className="nav__itemLineTwo">0</span>
+
+        </div>
+      
+    </div>
+    </div>
+    </>
   )
 }
 

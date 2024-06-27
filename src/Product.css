@@ -26,4 +26,7 @@ margin: 20px 0 0 15px;
 .product > button {
   background: #ff9f00;
   border: 1px solid ;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
 }

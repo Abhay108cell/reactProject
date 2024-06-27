@@ -10,7 +10,9 @@ function Home(){
             <img src="https://www.vocso.com/blog/wp-content/uploads/2022/02/eCommerce-Website-Features-1920-x-1080-1024x576.jpg" alt="" className="home__image" />
 
           <div className="home__row">
-           < Product/>
+           < Product
+           title="bread"
+           />
            < Product/>
           </div>
           <div className="home__row">

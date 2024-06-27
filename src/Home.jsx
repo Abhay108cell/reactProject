@@ -12,6 +12,8 @@ function Home(){
           <div className="home__row">
            < Product
            title="bread"
+           price={100}
+           image="https://www.vocso.com/blog/wp-content/uploads/2022/02/e"
            />
            < Product/>
           </div>

@@ -5,7 +5,7 @@ function Product (){
     <div>
       <div className="product">
         <div className="product__info">
-          <p>Title</p>
+          <p>"Bennett Mystic 15.6 inch Laptop Shoulder Messenger Sling Office Bag, Water Repellent Fabric for Men and Women (Blue)"</p>
           <p className="product__price">
             <small>$</small>
             <strong>99</strong>

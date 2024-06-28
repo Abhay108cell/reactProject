@@ -7,13 +7,12 @@ function Home(){
     <div>
         <div className="home">
           <div className="home__container">
-            <img src="https://www.vocso.com/blog/wp-content/uploads/2022/02/eCommerce-Website-Features-1920-x-1080-1024x576.jpg" alt="" className="home__image" />
-
+ <img src="https://www.x-cart.com/wp-content/uploads/2019/01/ecommerce-768x278.jpg" alt="" className="home__image" />
           <div className="home__row">
            < Product
            title="bread"
            price={100}
-           image="https://www.vocso.com/blog/wp-content/uploads/2022/02/e"
+           image="https://images-na.ssl-images-amazon.com/images/I/71mEsHyzSCL._SL1000_.jpg"
            />
            < Product/>
           </div>

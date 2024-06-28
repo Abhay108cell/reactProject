@@ -10,11 +10,14 @@ function Product ({id, title, price, rating, image}){
             <small>$</small>
             <strong>{price}</strong>
           </p>
-          <p className="product__rating">*****</p>
+          <p className="product__rating">
+            {Array(rating).fill().map((_, i) => ( <p>⭐</p>
+            ))}
+          </p>
         </div>
         <img src={image} alt="" />
 
-       <button>Add to Basket</button>
+       <button>Add to Basket </button>
 
       </div>
 

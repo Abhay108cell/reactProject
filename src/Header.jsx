@@ -26,6 +26,8 @@ function Header(){
           <span className="nav__itemLineOne">Your</span>
           <span className="nav__itemLineTwo">Shop</span>
         </div>
+        <Link to="/checkout" style={{textDecoration: "none"}}>
+        </Link>
         <div className="nav__itemBasket">
          < ShoppingBasketIcon/>
           <span className="nav__itemLineTwo nav__basketCount">0</span>

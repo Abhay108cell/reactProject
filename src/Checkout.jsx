@@ -5,9 +5,16 @@ import "./Checkout.css";
 function Checkout() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <div className="checkout">
+        <div className="checkout__left">
+
+        </div>
+        <div className="checkout__right">
+          
+        </div>
+      </div>
     </div>
   )
 }
 
-export default Checkout
+export default Checkout;

@@ -5,7 +5,8 @@ import './App.css'
 import  Header from'./Header.jsx'
 import Home from './Home.jsx'
 import Checkout from './Checkout.jsx'
-import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
+
+// import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
 // 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,7 +14,7 @@ function App() {
   return (
     <>
   <div className="App">
-    <Router>
+    {/* <Router>
       <Switch>
         
         <Route  path="/checkout">
@@ -27,9 +28,10 @@ function App() {
         </Route>
 
       </Switch>
-    </Router>
-      {/* <Header/>
-      <Home/> */}
+    </Router> */}
+      <Header/>
+      <Checkout/>
+      {/* <Home/> */}
    </div>
     </>
   )

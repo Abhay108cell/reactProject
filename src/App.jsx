@@ -6,7 +6,7 @@ import  Header from'./Header.jsx'
 import Home from './Home.jsx'
 // import Checkout from './Checkout.jsx'
 // import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
-
+// 
 function App() {
   const [count, setCount] = useState(0)
 
@@ -14,7 +14,7 @@ function App() {
     <>
   <div className="App">
       <Header/>
-      {/* <Home/> */}
+      <Home/>
    </div>
     </>
   )

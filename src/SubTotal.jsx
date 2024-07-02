@@ -1,10 +1,10 @@
 import React from 'react'
-import CurrencyFormat from "react-currency-format"
+// import CurrencyFormat from "react-currency-format"
 
 function SubTotal() {
   return (
     <div>
-      <CurrencyFormat
+      {/* <CurrencyFormat
       renderText={(value)=>{
         <>
         <p>
@@ -15,7 +15,12 @@ function SubTotal() {
         </small>
         </>
       }}
-      />
+      decimalScale={2}
+      value={0}
+      displayType={"text"}
+      thousandSeparator={true}
+      prefix={$}
+      /> */}
     </div>
   )
 }

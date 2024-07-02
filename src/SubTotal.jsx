@@ -1,10 +1,10 @@
 import React from 'react'
-import currencyFormat from "react-currency-format"
+import CurrencyFormat from "react-currency-format"
 
 function SubTotal() {
   return (
     <div>
-      
+      <CurrencyFormat/>
     </div>
   )
 }

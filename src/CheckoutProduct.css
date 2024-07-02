@@ -3,3 +3,15 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.checkoutProduct__info{
+  padding-left: 20px;
+}
+
+.checkoutProduct__info > bottom {
+  background: #ff9f00;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #876a29;
+  color: #111;
+}

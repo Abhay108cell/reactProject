@@ -1,40 +1,26 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import  Header from'./Header.jsx'
-import Home from './Home.jsx'
-import Checkout from './Checkout.jsx'
+import { useState } from 'react';
+import reactLogo from './assets/react.svg';
+import viteLogo from '/vite.svg';
+import './App.css';
+import Header from './Header.jsx';
+import Home from './Home.jsx';
+import Checkout from './Checkout.jsx';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-// import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
-// 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
-    <>
-  <div className="App">
-    {/* <Router>
-      <Switch>
-        
-        <Route  path="/checkout">
-          <Header/>
-          <Checkout />    
-        </Route>
-
-        <Route exact path="/">
-          <Header/>
-          <Home/>
-        </Route>
-
-      </Switch>
-    </Router> */}
-      <Header/>
-      <Checkout/>
-      {/* <Home/> */}
-   </div>
-    </>
-  )
+    <div className="App">
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/checkout" element={<Checkout />} />
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </Router>
+    </div>
+  );
 }
 
-export default App
+export default App;

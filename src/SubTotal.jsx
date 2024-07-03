@@ -23,8 +23,6 @@ function SubTotal() {
         prefix={'$'} // Correct prefix format
       />
       <button>Proceed to Checkout</button>
-
-      
     </div>
   );
 }

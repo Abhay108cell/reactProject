@@ -15,14 +15,12 @@ function Checkout() {
         <div className="checkout__title">
           <h2>Your Shopping Basket</h2>
 
+        <CheckoutProduct/>
         </div>
-        <CheckoutProduct/>
-        <CheckoutProduct/>
-        <CheckoutProduct/>
       </div>
 
       <div className="checkout__right">
-       < SubTotal/>
+        < SubTotal/>
       </div>
     </div>
   );

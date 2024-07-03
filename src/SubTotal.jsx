@@ -1,11 +1,11 @@
 import React from 'react'
 import "./SubTotal.css"
-// import CurrencyFormat from "react-currency-format"
+import CurrencyFormat from "react-currency-format"
 
 function SubTotal() {
   return (
-    <div>
-      {/* <CurrencyFormat
+    <div className='subTotal'>
+      <CurrencyFormat
       renderText={(value)=>{
         <>
         <p>
@@ -20,8 +20,8 @@ function SubTotal() {
       value={0}
       displayType={"text"}
       thousandSeparator={true}
-      prefix={$}
-      /> */}
+      prefix={"$"}
+      />
     </div>
   )
 }

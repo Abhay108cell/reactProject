@@ -8,7 +8,7 @@
   padding-left: 20px;
 }
 
-.checkoutProduct__info > bottom {
+.checkoutProduct__info > button {
   background: #ff9f00;
   border: 1px solid;
   margin-top: 10px;

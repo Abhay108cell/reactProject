@@ -15,7 +15,7 @@ function CheckoutProduct() {
           <div className="checkoutProduct__rating">
             <p>⭐⭐⭐⭐⭐</p>
           </div>
-          <button className="checkoutProduct__button">Remove from Cart</button>
+          <button>Remove from Cart</button>
         </div>
       </div>
     </div>

@@ -2,6 +2,7 @@ import "./Checkout.css"
 import React from "react";
 import CheckoutProduct from "./CheckoutProduct";
 import SubTotal from "./SubTotal.jsx"
+import { useStateValue } from "./StateProvider"
 
 function Checkout() {
   return (
